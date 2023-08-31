@@ -1,7 +1,24 @@
-.container {
-    text-align: center;
+body {
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
 }
 
-li{
+.container {
+    text-align: center;
+    background-color:  #f4f4f4;
+    width: 250px;
+    height: 300px;
+    padding: 20px 20px;
+    justify-content: center;
+    
+
+}
+
+img{
+    border-radius: 50%;
+}
+.link{
     text-decoration: none;
 }
