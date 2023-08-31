@@ -1,4 +1,4 @@
-body {
+/* body {
     justify-content: center;
     align-items: center;
     height: 100vh;
@@ -21,4 +21,22 @@ img{
 }
 .link{
     text-decoration: none;
-}
+} */
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  .box {
+    padding: 20px;
+    text-align: center;
+    width: 50%;
+    background-color:  #f4f4f4;
+  }
+  img {
+    max-width: 20%;
+    max-height: 20%;
+  }
